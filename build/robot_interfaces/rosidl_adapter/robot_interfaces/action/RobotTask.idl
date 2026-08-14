@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_interfaces/action/RobotTask.action
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces {
+  module action {
+    struct RobotTask_Goal {
+      string destination;
+    };
+    struct RobotTask_Result {
+      boolean success;
+
+      string message;
+    };
+    struct RobotTask_Feedback {
+      float progress;
+    };
+  };
+};

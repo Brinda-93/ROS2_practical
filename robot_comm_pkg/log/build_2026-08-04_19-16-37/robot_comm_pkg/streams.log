@@ -1,0 +1,22 @@
+[0.538s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg/build --no-deps symlink_data
+[0.782s] running develop
+[0.911s] running egg_info
+[0.911s] writing robot_comm_pkg.egg-info/PKG-INFO
+[0.911s] writing dependency_links to robot_comm_pkg.egg-info/dependency_links.txt
+[0.911s] writing entry points to robot_comm_pkg.egg-info/entry_points.txt
+[0.911s] writing requirements to robot_comm_pkg.egg-info/requires.txt
+[0.911s] writing top-level names to robot_comm_pkg.egg-info/top_level.txt
+[0.914s] reading manifest file 'robot_comm_pkg.egg-info/SOURCES.txt'
+[0.916s] writing manifest file 'robot_comm_pkg.egg-info/SOURCES.txt'
+[0.917s] running build_ext
+[0.917s] Creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/python3.10/site-packages/robot-comm-pkg.egg-link (link to .)
+[0.918s] Installing battery_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+[0.919s] Installing camera_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+[0.919s] Installing position_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+[0.920s] Installing position_sub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+[0.920s] Installing temperature_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+[0.921s] Installing velocity_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+[0.922s] 
+[0.922s] Installed /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg
+[0.922s] running symlink_data
+[0.939s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg' returned '0': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg/build --no-deps symlink_data

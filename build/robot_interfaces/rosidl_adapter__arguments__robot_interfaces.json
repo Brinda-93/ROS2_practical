@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/robot_interfaces:action/RobotTask.action"
+  ]
+}

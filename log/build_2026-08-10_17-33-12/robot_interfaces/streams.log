@@ -1,0 +1,209 @@
+[0.007s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.193s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.284s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.284s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.374s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.374s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.607s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.649s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.669s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.671s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.675s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.700s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.721s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.935s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.081s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.292s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.293s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.310s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.311s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.311s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.311s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.324s] -- Found PythonExtra: .so  
+[1.437s] -- Added test 'lint_cmake' to check CMake code style
+[1.446s] -- Added test 'xmllint' to check XML markup files
+[1.476s] -- Configuring done
+[1.607s] -- Generating done
+[1.636s] -- Build files have been written to: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces
+[1.644s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/robot_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces
+[1.645s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces -- -j16 -l16
+[1.673s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.679s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.680s] [  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.684s] [  9%] Built target ament_cmake_python_symlink_robot_interfaces
+[1.837s] running egg_info
+[1.850s] creating robot_interfaces.egg-info
+[1.850s] writing robot_interfaces.egg-info/PKG-INFO
+[1.850s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[1.851s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[1.851s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[1.855s] [  9%] Built target robot_interfaces__rs
+[1.890s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[1.891s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[1.907s] [  9%] Built target ament_cmake_python_build_robot_interfaces_egg
+[1.952s] [  9%] Built target robot_interfaces__cpp
+[1.954s] [ 12%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/action/detail/robot_task__functions.c.o[0m
+[1.958s] [ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.958s] [ 21%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.958s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.090s] [ 25%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[2.125s] [ 25%] Built target robot_interfaces__rosidl_generator_c
+[2.132s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.133s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.133s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.140s] [ 37%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/action/robot_task__type_support.cpp.o[0m
+[2.177s] [ 40%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/action/detail/robot_task__type_support.cpp.o[0m
+[2.201s] [ 43%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/action/detail/dds_fastrtps/robot_task__type_support.cpp.o[0m
+[2.332s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/action/robot_task__type_support.cpp.o[0m
+[2.389s] [ 50%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/action/detail/robot_task__type_support.c.o[0m
+[2.394s] [ 53%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[2.401s] [ 56%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/action/detail/robot_task__type_support_c.cpp.o[0m
+[2.434s] [ 56%] Built target robot_interfaces__rosidl_typesupport_c
+[2.478s] [ 59%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[2.478s] [ 62%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.550s] [ 62%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[2.552s] [ 62%] Built target robot_interfaces__rosidl_typesupport_cpp
+[2.646s] [ 68%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.646s] [ 68%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.717s] [ 68%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.718s] [ 68%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[2.765s] [ 71%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.815s] [ 71%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.827s] [ 71%] Built target robot_interfaces
+[2.839s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.236s] [ 75%] Built target robot_interfaces__py
+[3.249s] [ 78%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_interfaces/action/_robot_task_s.c.o[0m
+[3.377s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__rosidl_generator_py.so[0m
+[3.431s] [ 81%] Built target robot_interfaces__rosidl_generator_py
+[3.444s] [ 90%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.445s] [ 90%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.445s] [ 90%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.575s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.581s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.581s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.623s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[3.627s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.628s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.639s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces -- -j16 -l16
+[3.645s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces
+[3.650s] -- Install configuration: ""
+[3.651s] -- Execute custom install script
+[3.652s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[3.661s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__functions.h
+[3.667s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__struct.h
+[3.673s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__type_support.h
+[3.679s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/robot_task.h
+[3.686s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.692s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[3.699s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[3.708s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__rosidl_typesupport_fastrtps_c.h
+[3.715s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.722s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__rosidl_typesupport_introspection_c.h
+[3.728s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.737s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__builder.hpp
+[3.743s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__struct.hpp
+[3.750s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__traits.hpp
+[3.758s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__type_support.hpp
+[3.764s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/robot_task.hpp
+[3.771s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.780s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__rosidl_typesupport_fastrtps_cpp.hpp
+[3.787s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.794s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/include/robot_interfaces/robot_interfaces/action/detail/robot_task__rosidl_typesupport_introspection_cpp.hpp
+[3.800s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[3.807s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[3.814s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.821s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.828s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.836s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.848s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[3.854s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[3.860s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.866s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.873s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py
+[3.879s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_task.py
+[3.885s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_task_s.c
+[3.891s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[3.896s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.902s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.907s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.914s] -- Up-to-date symlink: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.916s] -- Up-to-date symlink: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.917s] -- Up-to-date symlink: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.918s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/ament_index/resource_index/rust_packages/robot_interfaces
+[3.925s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/rust/Cargo.toml
+[3.931s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/rust/build.rs
+[3.937s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/rust/src/action.rs
+[3.943s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/rust/src/action/rmw.rs
+[3.948s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/rust/src/lib.rs
+[3.954s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/action/RobotTask.idl
+[3.960s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/action/RobotTask.action
+[3.966s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[3.972s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[3.977s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[3.983s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[3.988s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[3.994s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[3.999s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[4.005s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[4.010s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[4.015s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[4.021s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/package.dsv
+[4.027s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[4.034s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.039s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.045s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.051s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.056s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.062s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.068s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.073s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[4.079s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[4.085s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/package.xml
+[4.091s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[4.093s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[4.094s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.096s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.096s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[4.098s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.099s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[4.100s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[4.101s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.103s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.103s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.105s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.106s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[4.108s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.141s] Listing '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[4.141s] Compiling '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py'...
+[4.141s] Listing '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action'...
+[4.141s] Compiling '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/__init__.py'...
+[4.141s] Compiling '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/action/_robot_task.py'...
+[4.144s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[4.147s] -- Set runtime path of "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so" to ""
+[4.147s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[4.149s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.151s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.153s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.155s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.157s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.159s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[4.161s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.163s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[4.165s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.166s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.168s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.170s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.172s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.174s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.176s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[4.178s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.181s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces

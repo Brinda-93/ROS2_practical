@@ -1,0 +1,4 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring incomplete, errors occurred!
+See also "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot/CMakeFiles/CMakeOutput.log".

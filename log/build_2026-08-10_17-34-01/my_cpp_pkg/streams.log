@@ -1,0 +1,24 @@
+[0.372s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --build /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg -- -j16 -l16
+[1.130s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[1.130s] [100%] Built target cpp_node
+[1.140s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --build /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg -- -j16 -l16
+[1.142s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --install /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg
+[1.318s] -- Install configuration: ""
+[1.319s] -- Execute custom install script
+[1.319s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[1.319s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[1.319s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[1.320s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[1.320s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[1.320s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[1.321s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[1.321s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[1.322s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[1.322s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[1.322s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[1.322s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[1.322s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[1.323s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[1.323s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[1.330s] -- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[1.386s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --install /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_cpp_pkg

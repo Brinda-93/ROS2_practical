@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_interfaces__rs",
+		"source" : "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_interfaces/robot_interfaces__rs"
+	}
+}

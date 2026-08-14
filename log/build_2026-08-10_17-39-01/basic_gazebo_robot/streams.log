@@ -1,0 +1,58 @@
+[0.017s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/vision_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_service_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_action_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/camera_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot -DCMAKE_INSTALL_PREFIX=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.234s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.353s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.362s] -- Detecting CXX compiler ABI info
+[0.470s] -- Detecting CXX compiler ABI info - done
+[0.476s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.476s] -- Detecting CXX compile features
+[0.476s] -- Detecting CXX compile features - done
+[0.495s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.022s] -- Found Python3: /home/bs5/miniconda3/envs/cv/bin/python3 (found version "3.8.0") found components: Interpreter 
+[1.346s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[1.363s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.545s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.582s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.620s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.661s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.719s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.791s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.817s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.072s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.082s] -- Added test 'lint_cmake' to check CMake code style
+[2.089s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.110s] -- Added test 'xmllint' to check XML markup files
+[2.124s] -- Configuring done
+[2.140s] -- Generating done
+[2.147s] -- Build files have been written to: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot
+[2.151s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/vision_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_service_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_action_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/camera_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot -DCMAKE_INSTALL_PREFIX=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot
+[2.152s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/vision_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_service_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_action_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/camera_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --build /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot -- -j16 -l16
+[2.196s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/vision_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_service_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_action_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/camera_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --build /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot -- -j16 -l16
+[2.206s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/vision_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_service_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_action_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/camera_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --install /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot
+[2.214s] -- Install configuration: ""
+[2.215s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/launch
+[2.215s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/launch/simulation.launch.py
+[2.217s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/worlds
+[2.218s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/worlds/simple.world
+[2.219s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/models
+[2.220s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/models/robot.urdf
+[2.222s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/ament_index/resource_index/package_run_dependencies/basic_gazebo_robot
+[2.224s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/ament_index/resource_index/parent_prefix_path/basic_gazebo_robot
+[2.226s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/ament_prefix_path.sh
+[2.228s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/ament_prefix_path.dsv
+[2.229s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/path.sh
+[2.231s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/path.dsv
+[2.232s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.bash
+[2.234s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.sh
+[2.236s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.zsh
+[2.237s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.dsv
+[2.239s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/package.dsv
+[2.241s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/ament_index/resource_index/packages/basic_gazebo_robot
+[2.243s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/cmake/basic_gazebo_robotConfig.cmake
+[2.244s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/cmake/basic_gazebo_robotConfig-version.cmake
+[2.246s] -- Installing: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/package.xml
+[2.249s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/vision_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_service_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_action_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/camera_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(cv) /usr/bin/cmake --install /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot

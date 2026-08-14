@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing robot_comm_pkg.egg-info/PKG-INFO
+writing dependency_links to robot_comm_pkg.egg-info/dependency_links.txt
+writing entry points to robot_comm_pkg.egg-info/entry_points.txt
+writing requirements to robot_comm_pkg.egg-info/requires.txt
+writing top-level names to robot_comm_pkg.egg-info/top_level.txt
+reading manifest file 'robot_comm_pkg.egg-info/SOURCES.txt'
+writing manifest file 'robot_comm_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/python3.10/site-packages/robot-comm-pkg.egg-link (link to .)
+Installing battery_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+Installing camera_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+Installing position_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+Installing position_sub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+Installing temperature_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+Installing velocity_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/install/robot_comm_pkg/lib/robot_comm_pkg
+
+Installed /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg/build/robot_comm_pkg
+running symlink_data

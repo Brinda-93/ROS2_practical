@@ -1,0 +1,28 @@
+[1.888s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/navigation_pkg': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_pkg build --build-base /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/build install --record /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/install.log --single-version-externally-managed install_data
+[2.183s] running egg_info
+[2.196s] creating ../../build/navigation_pkg/navigation_pkg.egg-info
+[2.197s] writing ../../build/navigation_pkg/navigation_pkg.egg-info/PKG-INFO
+[2.198s] writing dependency_links to ../../build/navigation_pkg/navigation_pkg.egg-info/dependency_links.txt
+[2.198s] writing requirements to ../../build/navigation_pkg/navigation_pkg.egg-info/requires.txt
+[2.198s] writing top-level names to ../../build/navigation_pkg/navigation_pkg.egg-info/top_level.txt
+[2.199s] writing manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[2.231s] reading manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[2.236s] writing manifest file '../../build/navigation_pkg/navigation_pkg.egg-info/SOURCES.txt'
+[2.236s] running build
+[2.237s] running build_py
+[2.238s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/build/lib/navigation_pkg
+[2.239s] copying navigation_pkg/__init__.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/build/lib/navigation_pkg
+[2.240s] running install
+[2.244s] running install_lib
+[2.265s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg
+[2.266s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/build/lib/navigation_pkg/__init__.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg
+[2.269s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg/__init__.py to __init__.cpython-310.pyc
+[2.271s] running install_data
+[2.272s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/share/ament_index/resource_index/packages
+[2.274s] copying resource/navigation_pkg -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/share/ament_index/resource_index/packages
+[2.276s] copying package.xml -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/share/navigation_pkg
+[2.277s] running install_egg_info
+[2.297s] Copying ../../build/navigation_pkg/navigation_pkg.egg-info to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/lib/python3.10/site-packages/navigation_pkg-0.0.0-py3.10.egg-info
+[2.315s] running install_scripts
+[2.348s] writing list of installed files to '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/install.log'
+[2.457s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/navigation_pkg' returned '0': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation_pkg build --build-base /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/build install --record /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/navigation_pkg/install.log --single-version-externally-managed install_data

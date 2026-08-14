@@ -1,0 +1,25 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/launch/simulation.launch.py
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/urdf/robot.urdf
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/worlds/basic.world
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/ament_index/resource_index/package_run_dependencies/basic_gazebo_robot
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/ament_index/resource_index/parent_prefix_path/basic_gazebo_robot
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/ament_prefix_path.sh
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/path.sh
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/environment/path.dsv
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.bash
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.sh
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.zsh
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/local_setup.dsv
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/package.dsv
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/ament_index/resource_index/packages/basic_gazebo_robot
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/cmake/basic_gazebo_robotConfig.cmake
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/cmake/basic_gazebo_robotConfig-version.cmake
+-- Symlinking: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/basic_gazebo_robot/share/basic_gazebo_robot/package.xml

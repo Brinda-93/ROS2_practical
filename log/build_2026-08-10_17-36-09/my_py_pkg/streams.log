@@ -1,0 +1,63 @@
+[1.889s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/my_py_pkg': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build install --record /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.081s] /home/bs5/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:288: UserWarning: Unknown distribution option: 'tests_require'
+[2.081s]   warnings.warn(msg)
+[2.170s] running egg_info
+[2.192s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.192s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.193s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.194s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.194s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.195s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.195s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.242s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.247s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.248s] running build
+[2.248s] running build_py
+[2.249s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.250s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.252s] copying my_py_pkg/add_two_ints_client_oop.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.253s] copying my_py_pkg/add_two_ints_server.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.253s] copying my_py_pkg/hardware_status_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.254s] copying my_py_pkg/my_first_node.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.255s] copying my_py_pkg/number_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.256s] copying my_py_pkg/robot_news_station.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.256s] copying my_py_pkg/smartphone.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.257s] copying my_py_pkg/__init__.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg
+[2.258s] running install
+[2.263s] running install_lib
+[2.285s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.286s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.288s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_oop.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.291s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.293s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/hardware_status_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.295s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.298s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.300s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.304s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.307s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.311s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[2.314s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_oop.py to add_two_ints_client_oop.cpython-310.pyc
+[2.318s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[2.321s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hardware_status_publisher.py to hardware_status_publisher.cpython-310.pyc
+[2.323s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[2.325s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[2.327s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[2.329s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[2.331s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[2.332s] running install_data
+[2.333s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.334s] copying resource/my_py_pkg -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.335s] copying package.xml -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/share/my_py_pkg
+[2.335s] running install_egg_info
+[2.355s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.366s] running install_scripts
+[2.396s] Installing add_two_ints_client_no_oop script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.396s] Installing add_two_ints_server script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.397s] Installing call_add_two_ints script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.397s] Installing hardware_status_publisher script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.398s] Installing number_publisher script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.398s] Installing py_node script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.399s] Installing robot_news_station script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.399s] Installing smartphone script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/my_py_pkg
+[2.401s] writing list of installed files to '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/install.log'
+[2.482s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/my_py_pkg' returned '0': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build install --record /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/install.log --single-version-externally-managed install_data

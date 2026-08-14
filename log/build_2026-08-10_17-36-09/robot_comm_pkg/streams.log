@@ -1,0 +1,53 @@
+[1.872s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_comm_pkg build --build-base /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build install --record /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/install.log --single-version-externally-managed install_data
+[2.206s] running egg_info
+[2.221s] creating ../build/robot_comm_pkg/robot_comm_pkg.egg-info
+[2.222s] writing ../build/robot_comm_pkg/robot_comm_pkg.egg-info/PKG-INFO
+[2.223s] writing dependency_links to ../build/robot_comm_pkg/robot_comm_pkg.egg-info/dependency_links.txt
+[2.224s] writing entry points to ../build/robot_comm_pkg/robot_comm_pkg.egg-info/entry_points.txt
+[2.224s] writing requirements to ../build/robot_comm_pkg/robot_comm_pkg.egg-info/requires.txt
+[2.225s] writing top-level names to ../build/robot_comm_pkg/robot_comm_pkg.egg-info/top_level.txt
+[2.226s] writing manifest file '../build/robot_comm_pkg/robot_comm_pkg.egg-info/SOURCES.txt'
+[2.257s] reading manifest file '../build/robot_comm_pkg/robot_comm_pkg.egg-info/SOURCES.txt'
+[2.260s] writing manifest file '../build/robot_comm_pkg/robot_comm_pkg.egg-info/SOURCES.txt'
+[2.261s] running build
+[2.261s] running build_py
+[2.261s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.262s] copying robot_comm_pkg/battery_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.263s] copying robot_comm_pkg/camera_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.265s] copying robot_comm_pkg/position_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.267s] copying robot_comm_pkg/position_subscriber.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.269s] copying robot_comm_pkg/temperature_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.270s] copying robot_comm_pkg/velocity_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.271s] copying robot_comm_pkg/__init__.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg
+[2.273s] running install
+[2.277s] running install_lib
+[2.293s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.295s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/battery_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.298s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/camera_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.301s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/position_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.304s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/position_subscriber.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.307s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/temperature_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.309s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/velocity_publisher.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.311s] copying /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build/lib/robot_comm_pkg/__init__.py -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg
+[2.313s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/battery_publisher.py to battery_publisher.cpython-310.pyc
+[2.315s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/camera_publisher.py to camera_publisher.cpython-310.pyc
+[2.317s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/position_publisher.py to position_publisher.cpython-310.pyc
+[2.319s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/position_subscriber.py to position_subscriber.cpython-310.pyc
+[2.320s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/temperature_publisher.py to temperature_publisher.cpython-310.pyc
+[2.322s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/velocity_publisher.py to velocity_publisher.cpython-310.pyc
+[2.324s] byte-compiling /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg/__init__.py to __init__.cpython-310.pyc
+[2.326s] running install_data
+[2.327s] creating /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/share/ament_index/resource_index/packages
+[2.328s] copying resource/robot_comm_pkg -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/share/ament_index/resource_index/packages
+[2.330s] copying package.xml -> /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/share/robot_comm_pkg
+[2.331s] running install_egg_info
+[2.350s] Copying ../build/robot_comm_pkg/robot_comm_pkg.egg-info to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages/robot_comm_pkg-0.0.0-py3.10.egg-info
+[2.359s] running install_scripts
+[2.395s] Installing battery_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/robot_comm_pkg
+[2.395s] Installing camera_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/robot_comm_pkg
+[2.395s] Installing position_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/robot_comm_pkg
+[2.396s] Installing position_sub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/robot_comm_pkg
+[2.396s] Installing temperature_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/robot_comm_pkg
+[2.396s] Installing velocity_pub script to /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/robot_comm_pkg
+[2.397s] writing list of installed files to '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/install.log'
+[2.481s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/robot_comm_pkg' returned '0': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_comm_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_comm_pkg build --build-base /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/build install --record /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_comm_pkg/install.log --single-version-externally-managed install_data

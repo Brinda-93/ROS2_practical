@@ -1,0 +1,7 @@
+[console_scripts]
+battery_pub = robot_comm_pkg.battery_publisher:main
+camera_pub = robot_comm_pkg.camera_publisher:main
+position_pub = robot_comm_pkg.position_publisher:main
+position_sub = robot_comm_pkg.position_subscriber:main
+temperature_pub = robot_comm_pkg.temperature_publisher:main
+velocity_pub = robot_comm_pkg.velocity_publisher:main

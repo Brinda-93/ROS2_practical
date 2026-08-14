@@ -1,0 +1,3 @@
+[console_scripts]
+robot_client = robot_service_pkg.robot_client:main
+robot_server = robot_service_pkg.robot_server:main

@@ -1,0 +1,9 @@
+[2.855s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg': PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/my_py_pkg/build --no-deps symlink_data
+[3.195s] /home/bs5/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:288: UserWarning: Unknown distribution option: 'tests_require'
+[3.195s]   warnings.warn(msg)
+[3.246s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+[3.246s]    or: setup.py --help [cmd1 cmd2 ...]
+[3.246s]    or: setup.py --help-commands
+[3.246s]    or: setup.py cmd --help
+[3.247s] 
+[3.247s] error: option --editable not recognized
