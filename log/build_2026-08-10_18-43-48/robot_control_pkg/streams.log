@@ -1,7 +1,0 @@
-[2.943s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_control_pkg': PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/robot_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/robot_control_pkg/build --no-deps symlink_data --force
-[3.379s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
-[3.379s]    or: setup.py --help [cmd1 cmd2 ...]
-[3.379s]    or: setup.py --help-commands
-[3.379s]    or: setup.py cmd --help
-[3.379s] 
-[3.379s] error: option --editable not recognized

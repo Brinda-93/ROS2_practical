@@ -1,6 +1,9 @@
 slam_toolbox:
   ros__parameters:
 
+    # Use simulation time (required when running with Gazebo)
+    use_sim_time: true
+
     # Plugin params
     solver_plugin: solver_plugins::CeresSolver
     ceres_linear_solver: SPARSE_NORMAL_CHOLESKY

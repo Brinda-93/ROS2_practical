@@ -1,5 +1,8 @@
 import os
 
+from launch.actions import SetEnvironmentVariable, DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
+
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
@@ -16,13 +19,24 @@ def generate_launch_description():
     package_path = get_package_share_directory(package_name)
 
     # --------------------------------------------------
+    # Launch Arguments
+    # --------------------------------------------------
+
+    use_sim_time = LaunchConfiguration('use_sim_time', default='true')
+
+    slam_params_file = LaunchConfiguration(
+        'slam_params_file',
+        default=os.path.join(package_path, 'config', 'mapper_params_online_async.yaml')
+    )
+
+    # --------------------------------------------------
     # World
     # --------------------------------------------------
 
     world_file = os.path.join(
         package_path,
         'worlds',
-        'my_world.world'
+        'small_house.world'
     )
 
     # --------------------------------------------------
@@ -70,7 +84,8 @@ def generate_launch_description():
         output='screen',
         parameters=[
             {
-                'robot_description': robot_description
+                'robot_description': robot_description,
+                'use_sim_time': use_sim_time
             }
         ]
     )
@@ -98,11 +113,59 @@ def generate_launch_description():
     )
 
     # --------------------------------------------------
-    # Launch everything
+    # RViz
     # --------------------------------------------------
 
+    rviz_config_file = os.path.join(package_path, 'rviz', 'robot.rviz')
+
+    rviz = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', rviz_config_file],
+        parameters=[{'use_sim_time': use_sim_time}],
+        output='screen'
+    )
+
+    # --------------------------------------------------
+    # SLAM Toolbox
+    # --------------------------------------------------
+
+    slam_toolbox_launch_file = os.path.join(
+        get_package_share_directory('slam_toolbox'),
+        'launch',
+        'online_async_launch.py'
+    )
+
+    slam = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(slam_toolbox_launch_file),
+        launch_arguments={
+            'slam_params_file': slam_params_file,
+            'use_sim_time': use_sim_time
+        }.items()
+    )
+
+    # --------------------------------------------------
+    # Launch everything
+    # --------------------------------------------------
+    gazebo_model_path = SetEnvironmentVariable(
+        name='GAZEBO_MODEL_PATH',
+        value=os.path.join(package_path, 'models')
+    )
+
     return LaunchDescription([
+        # Arguments
+        DeclareLaunchArgument('use_sim_time', default_value='true',
+                              description='Use simulation clock'),
+        DeclareLaunchArgument('slam_params_file',
+                              default_value=os.path.join(
+                                  package_path, 'config', 'mapper_params_online_async.yaml'),
+                              description='Path to SLAM Toolbox params YAML'),
+        # Nodes
+        gazebo_model_path,
         gazebo,
         robot_state_publisher,
-        spawn_robot
+        spawn_robot,
+        rviz,
+        slam,
     ])

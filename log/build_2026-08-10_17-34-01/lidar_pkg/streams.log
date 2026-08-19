@@ -1,8 +1,0 @@
-[1.776s] Invoking command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/lidar_pkg': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/lidar_pkg/build --no-deps symlink_data
-[2.032s] usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
-[2.032s]    or: setup.py --help [cmd1 cmd2 ...]
-[2.032s]    or: setup.py --help-commands
-[2.032s]    or: setup.py cmd --help
-[2.032s] 
-[2.032s] error: option --editable not recognized
-[2.048s] Invoked command in '/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/lidar_pkg' returned '1': CONDA_PROMPT_MODIFIER=(cv) PYTHONPATH=/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/lidar_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/install/lidar_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/lidar_pkg/build --no-deps symlink_data

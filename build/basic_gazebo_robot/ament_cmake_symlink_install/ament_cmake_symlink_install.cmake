@@ -318,6 +318,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "urdf" "DESTINATION" "share/basic_gazebo_robot")
 ament_cmake_symlink_install_directory("/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot" DIRECTORY "urdf" "DESTINATION" "share/basic_gazebo_robot")
 
+# install(DIRECTORY "rviz" "DESTINATION" "share/basic_gazebo_robot")
+ament_cmake_symlink_install_directory("/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot" DIRECTORY "rviz" "DESTINATION" "share/basic_gazebo_robot")
+
 # install(DIRECTORY "worlds" "DESTINATION" "share/basic_gazebo_robot")
 ament_cmake_symlink_install_directory("/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot" DIRECTORY "worlds" "DESTINATION" "share/basic_gazebo_robot")
 
@@ -326,6 +329,9 @@ ament_cmake_symlink_install_directory("/data2/Brinda/Documents/Reports/ROS2/my_r
 
 # install(DIRECTORY "config" "DESTINATION" "share/basic_gazebo_robot")
 ament_cmake_symlink_install_directory("/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot" DIRECTORY "config" "DESTINATION" "share/basic_gazebo_robot")
+
+# install(DIRECTORY "models" "DESTINATION" "share/basic_gazebo_robot")
+ament_cmake_symlink_install_directory("/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot" DIRECTORY "models" "DESTINATION" "share/basic_gazebo_robot")
 
 # install(FILES "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/basic_gazebo_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/src/basic_gazebo_robot" FILES "/data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace/build/basic_gazebo_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/basic_gazebo_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

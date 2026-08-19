@@ -1,0 +1,46 @@
+================================================================================
+ROS 2 SIMULATION, SLAM, & MAPPING INSTRUCTIONS
+Workspace: /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace
+Package: basic_gazebo_robot
+================================================================================
+
+Follow these steps exactly to run your simulation, drive the robot, and map the environment. You will need 3 separate terminal windows open.
+
+--------------------------------------------------------------------------------
+TERMINAL 1: Build & Launch (Gazebo + RViz + SLAM)
+--------------------------------------------------------------------------------
+Purpose: Rebuild your package after the changes we made, and launch the main simulation.
+
+Run these commands:
+cd /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace
+colcon build --packages-select basic_gazebo_robot
+source install/setup.bash
+ros2 launch basic_gazebo_robot sim.launch.py
+
+(Keep this terminal open and running. Gazebo and RViz will pop up. In RViz, you should see the robot and a Map display that will slowly build out as the robot moves.)
+
+
+--------------------------------------------------------------------------------
+TERMINAL 2: Teleop Keyboard (Drive the Robot)
+--------------------------------------------------------------------------------
+Purpose: Send cmd_vel movement commands to the robot using your keyboard so it can explore the house and SLAM can build the map.
+
+Open a NEW terminal window and run:
+source /opt/ros/humble/setup.bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+(Keep this terminal focused/selected on your screen. Use the keys shown in the terminal (i, j, k, l, ,) to drive the robot around in Gazebo. Watch the map populate in RViz!)
+
+
+--------------------------------------------------------------------------------
+TERMINAL 3: Save the Map
+--------------------------------------------------------------------------------
+Purpose: Once you have explored enough of the house and the map looks good in RViz, save it to a file.
+
+Open a NEW terminal window and run:
+cd /data2/Brinda/Documents/Reports/ROS2/my_ros2_workspace
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 run nav2_map_server map_saver_cli -f my_robot_map
+
+(This command will successfully execute and finish immediately. You can verify it worked by typing `ls` in this terminal; you should see two new files: `my_robot_map.yaml` and `my_robot_map.pgm`.)
